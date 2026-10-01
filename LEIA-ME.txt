@@ -1,0 +1,13 @@
+EVINHO VINHETAS — BUILD DO APK
+
+Este pacote foi preparado para gerar um APK Android instalável sem computador local.
+
+Arquivos necessários no repositório:
+1) codemagic.yaml
+2) evinho-vinhetas-studio-project.zip
+
+No Codemagic, conecte o repositório, selecione o workflow "Evinho Vinhetas — Android APK" e inicie o build.
+O artefato final será app-debug.apk.
+
+O APK DEBUG é assinado para instalação e serve para testar diretamente no Android.
+Para uma futura versão de produção/Google Play, será necessário configurar uma chave de assinatura própria.
