@@ -5,7 +5,8 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       node: v22.21.1
-    scripts:
+        java: 21
+        scripts :
       - name: Preparar projeto
         script: |
           rm -rf appsrc
